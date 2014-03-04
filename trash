@@ -256,7 +256,7 @@ function rmir()
 }
 
 #清空回收站
-function nmc()
+function rmc()
 {
 	/bin/rm -rf $trash
 }
@@ -320,7 +320,7 @@ function help()
     --preserve-root   fail to operate recursively on `/'
     -r, -R, --recursive   remove directories and their contents recursively
     -l, list removed files
-    -c, clear your trash directory
+    -c, clear trash directory
     --help     display this help and exit
 
 By default, rm does not remove directories.  Use the --recursive (-r or -R)
